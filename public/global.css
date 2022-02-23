@@ -1,0 +1,54 @@
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgb(242,130,178);
+	background: linear-gradient(30deg, rgba(242,130,178,1) 0%, rgba(99,132,228,1) 50%, rgba(0,116,108,1) 100%);
+}
+
+textarea{
+	border: 1px solid rgb(204, 204, 204);
+	background: transparent;
+	resize: none;
+	height: 5rem;
+	border-radius: .5rem;
+	padding: 1rem;
+	line-height: 1.5;
+	outline: none;
+}
+
+textarea:focus-within{
+	transition: 150ms ease;
+	box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.5) !important;
+}
+
+button{
+	cursor: pointer;
+	resize: none;
+	border: none;
+	outline: none;
+	line-height: 1.5;
+	padding: .3rem .6rem;
+	background: rgb(68, 165, 255);
+	border-radius: .5rem;
+	-webkit-border-radius: .5rem;
+	-moz-border-radius: .5rem;
+	-ms-border-radius: .5rem;
+	-o-border-radius: .5rem;
+}
+
+button:hover{
+	transition: 150ms ease;
+	box-shadow: 0 0 0 5px rgba(128, 172, 255, 0.5);
+}
+
+button:focus-within{
+	transition: 150ms ease;
+	box-shadow: 0 0 0 5px rgba(128, 172, 255, 0.5);
+}
